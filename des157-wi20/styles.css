@@ -38,17 +38,9 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 980px) {
-	
-	#page { width: 100%; }
-	
-}
-
-@media only screen and (max-width: 550px) {
-	
-	#about, #projects {
-		float:none;
-		width:100%;
-	}
-	
+#mySketch {
+    height: 250px;
+    width: 800px;
+    margin:auto;
+    width:50%;
 }

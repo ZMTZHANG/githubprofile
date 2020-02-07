@@ -3,7 +3,7 @@ function setup() {
     frameRate(8);
     noStroke();
     background(random(255), random(255), random(255));
-    myCanvas.parent(mySkatch);
+    myCanvas.parent(mySketch);
   }
   
   function draw() {
@@ -13,5 +13,5 @@ function setup() {
       fill(random(255), random(255), random(255), random(255));
     }
     var circSize = random(200);
-    ellipse(mouseX, museY, circSize, circSize);
-  }
+    ellipse(mouseX, mouseY, circSize, circSize);
+}
