@@ -5,13 +5,11 @@ function setup() {
     background(random(255), random(255), random(255));
     myCanvas.parent(mySketch);
   }
-  
   function draw() {
-    if(mouseIsPressed) {
-      fill(0);
-    } else {
-      fill(random(255), random(255), random(255), random(255));
-    }
-    var circSize = random(200);
-    ellipse(mouseX, mouseY, circSize, circSize);
-}
+    var bar = mouseX / barWidth;
+    if (bar != lastBar) {
+      var barX = bar * barWidth;
+      fill(barX, mouseY, 77);
+      rect(barX, 0, barWidth, height, 10);
+      lastBar = bar;
+  }
