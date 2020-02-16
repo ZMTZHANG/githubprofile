@@ -1,0 +1,59 @@
+body {
+   
+    width: 800px;
+    margin: auto;
+    justify-content: center;
+    background-color: #E87990;
+    color: #463136;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 70px;
+}
+
+    img {
+    float:left;
+    width: auto;
+    height: auto;
+    padding: 50px 100px 50px 150px;
+        
+    }
+
+    .invisible { 
+        display: none;
+    }
+    div{
+        float: right;
+    }
+    .visible {
+        color:white;
+        display: block;
+        padding: 1em;
+        width: 30%;
+        background-color: rgb(90, 77, 77);
+        opacity:0.8;
+        position: relative;
+        border-radius: 30px;
+        line-height:25px;
+        
+          
+    }
+    footer{
+        padding:20px;
+        text-align: center;
+      
+        margin-top: 40px;
+    
+    }
+    
+    
+footer a{
+    text-decoration: none;
+    padding-bottom: 40px;
+    color:#463136;
+
+padding-top:60px;
+}
