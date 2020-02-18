@@ -1,0 +1,67 @@
+body {
+    max-width: 90%;
+    overflow-x: hidden;
+    margin: auto;
+    padding-left: 20vw;
+    padding-top: 20px;
+    padding-bottom: 10%;
+    }
+  
+    header{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+  img {
+    padding-left:20px;
+    border:1px;
+    border-style: solid;
+  }
+  
+  p {
+    font-family: avenir;
+    padding-right: 25%;
+  }
+  
+  footer {
+      background-color:pink;
+    position: fixed;
+    padding: 4px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  footer ul li a {
+    color: black;
+    font-family: fantasy ;
+  }
+  
+  
+  footer a:link {
+    color: black;
+  }
+  
+  footer a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: pink;
+  }
+  
+  a:active {
+    color: pink;
+  }
+  
+  a {
+    text-decoration: none;
+  }
