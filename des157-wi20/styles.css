@@ -1,46 +1,76 @@
-header, footer {
-    padding: 10px;
-    background-color:paleturquoise;
-}
-
-header, h1, h2, h3 {
-    color: white; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 body {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-main {
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 20px;
-    max-width: 1200px;
-    min-width: 800px;
-    display: flex;
-}
-
-
-section h3 {
-    margin: 0;
-}
-
-section {
-    width: 40%;
-    background-color:paleturquoise;
-    margin: 20px;
-    padding: 20px;
-}
-
-footer {
-    text-align: center;
-}
-
-#mySketch {
-    height: 250px;
     width: 800px;
-    margin:auto;
-    width:50%;
-}
+    margin: auto;
+    padding: 1vw;
+  }
+  
+  #mySketch {
+    height: 250px;
+    padding: 2px;
+  }
+  
+  a:link {
+    color: Black
+  }
+  
+  a:visited {
+    color:black;
+  }
+  
+  a:hover {
+    color: pink;
+  }
+  
+  a:active {
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  
+  }
+  
+   h1 {
+    font-family: fantasy;
+    font-size: 70px;
+    margin:20px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  
+  section h2 {
+    font-family: fantasy;
+  
+  }
+  
+  ul li {
+    font-size: 17px;
+    font-family: fantasy;
+  }
+  
+  ol li {
+    font-size: 17px;
+    font-family: fantasy;
+  }
+  
+  footer {
+    background-color:pink;
+    position: fixed;
+    margin-top: 36px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+  }
+  
