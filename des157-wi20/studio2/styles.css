@@ -1,3 +1,16 @@
+@media only screen and (min-width: 700px) {
+  
+    img {
+      display: inline;
+    }
+
+  
+  
+    img {
+      display: block;
+      width: auto;
+    }
+    
 section {
     display: flex;
     flex-wrap: wrap;
@@ -5,19 +18,7 @@ section {
     justify-content: center;
   
   }
-  
-  #iphone {
-    border: pink;
-  }
-  
-  #laptop {
-    border: pink;
-  }
-  
-  #key {
-    border: pink;
-  }
-  
+
   #overlay p {
     font-family: fantasy;
     position: absolute;
@@ -59,18 +60,6 @@ section {
   }
   
   
-  @media only screen and (min-width: 768px) {
-  
-    img {
-      display: inline;
-    }
-
-  
-  
-    img {
-      display: block;
-      width: auto;
-    }
   
     footer {
         background-color:pink;
