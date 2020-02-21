@@ -1,0 +1,106 @@
+@media only screen and (min-width: 700px) {
+  
+    img {
+      display: inline;
+    }
+
+  
+  
+    img {
+      display: block;
+      width: auto;
+    }
+    
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    justify-content: center;
+  
+  }
+
+  #overlay p {
+    font-family: fantasy;
+    position: absolute;
+    color:white;
+    text-align: center;
+  }
+  
+  #overlay {
+    border-radius: 2em;
+    background-color:pink;
+    transform: translate(-45%, -10%);
+    left: 44%;
+    top: 80%;
+    align-content: center;
+    position: absolute;
+    width: 80%;
+    height: 15%;
+    display: none;
+  }
+  
+  #close {
+    top: .3em;
+    right: 1em;
+    color: white;
+    position: absolute;
+    font-size : 1.5em;
+    font-weight : bold;
+  }
+  
+  header {
+    font-size: 30px;
+    font-family: fantasy;
+    color: pink;
+    text-align: center;
+  }
+  
+  h1 {
+    color: pink;
+    align-items: center;
+    font-family: fantasy;
+  }
+  
+  
+  
+    footer {
+        background-color:pink;
+        position: fixed;
+        margin-top: 36px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-family: fantasy;
+      }
+      
+      footer ul li {
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        padding-left: 20px;
+      }
+  
+    #overlay {
+      border-radius: 2em;
+      background-color: pink;
+      transform: translate(-50%, -45%);
+      left: 50%;
+      top: 75%;
+      justify-content: center;
+      position: absolute;
+      width: 30%;
+      height: 20%;
+      opacity: 1;
+      display: none;
+    }
+  
+    p {
+      padding-left: .5em;
+      padding-right: .5em;
+      text-align: center;
+      margin-top: 5%;
+      color: white;
+      line-height: 2em;
+    }
+  }
