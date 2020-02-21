@@ -20,20 +20,20 @@
 
         
         //Pass the array of words the user typed into the function
-        Placeorder(words);
+        order(words);
 
     });
 
     //This function takes an array input, then constructs the pizza, peppering
         //in the user's words where necessary.
-        function Placeanorder(theWords){
-            const madlib = `I want to make a ${theWords[0]} pizza. I want to add ${theWords[1]} on top. I want ${theWords[2]}size .I want add${theWords[3]} sauce on top. Place${theWords[4]} pizza for me `;
+        function order(theWords){
+            const order = `I want to make a ${theWords[0]} pizza. I want to add ${theWords[1]} on top. I want ${theWords[2]}size .I want add${theWords[3]} sauce on top. Place${theWords[4]} pizza for me `;
 
             //Get the pizza container
             const mlContainer = document.getElementById('pizza');
 
             //Change the guts of the container to your pizza
-            mlContainer.innerHTML = `<p>${madlib}</p>`;
+            mlContainer.innerHTML = `<p>${order}</p>`;
 
             //change the class on the pizza container so you can see it.
             mlContainer.setAttribute("class", "visible");
