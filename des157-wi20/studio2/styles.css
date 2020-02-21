@@ -1,76 +1,115 @@
-body {
-    width: 800px;
-    margin: auto;
-    padding: 1vw;
-  }
-  
-  #mySketch {
-    height: 250px;
-    padding: 2px;
-  }
-  
-  a:link {
-    color: Black
-  }
-  
-  a:visited {
-    color:black;
-  }
-  
-  a:hover {
-    color: pink;
-  }
-  
-  a:active {
-    color: white;
-  }
-  
-  a {
-    text-decoration: none;
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    justify-content: center;
   
   }
   
-   h1 {
+  #iphone {
+    border: pink;
+  }
+  
+  #laptop {
+    border: pink;
+  }
+  
+  #key {
+    border: pink;
+  }
+  
+  #overlay p {
     font-family: fantasy;
-    font-size: 70px;
-    margin:20px;
+    position: absolute;
+    color:white;
+    text-align: center;
   }
   
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  
-  section h2 {
-    font-family: fantasy;
-  
-  }
-  
-  ul li {
-    font-size: 17px;
-    font-family: fantasy;
-  }
-  
-  ol li {
-    font-size: 17px;
-    font-family: fantasy;
-  }
-  
-  footer {
+  #overlay {
+    border-radius: 2em;
     background-color:pink;
-    position: fixed;
-    margin-top: 36px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    transform: translate(-45%, -10%);
+    left: 44%;
+    top: 80%;
+    align-content: center;
+    position: absolute;
+    width: 80%;
+    height: 15%;
+    display: none;
+  }
+  
+  #close {
+    top: .3em;
+    right: 1em;
+    color: white;
+    position: absolute;
+  }
+  
+  header {
+    font-size: 30px;
+    font-family: fantasy;
+    color: pink;
     text-align: center;
   }
   
-  footer ul li {
-    display: inline-block;
-    list-style-type: none;
-    text-align: center;
-    padding-left: 20px;
+  h1 {
+    color: pink;
+    align-items: center;
+    font-family: fantasy;
   }
   
+  
+  @media only screen and (min-width: 768px) {
+  
+    img {
+      display: inline;
+    }
+
+  
+  
+    img {
+      display: block;
+      width: auto;
+    }
+  
+    footer {
+        background-color:pink;
+        position: fixed;
+        margin-top: 36px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        font-family: fantasy;
+      }
+      
+      footer ul li {
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        padding-left: 20px;
+      }
+  
+    #overlay {
+      border-radius: 2em;
+      background-color: pink;
+      transform: translate(-50%, -45%);
+      left: 50%;
+      top: 75%;
+      justify-content: center;
+      position: absolute;
+      width: 30%;
+      height: 20%;
+      opacity: 1;
+      display: none;
+    }
+  
+    p {
+      padding-left: .5em;
+      padding-right: .5em;
+      text-align: center;
+      margin-top: 5%;
+      color: white;
+      line-height: 2em;
+    }
+  }
