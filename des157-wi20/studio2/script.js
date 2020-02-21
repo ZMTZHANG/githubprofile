@@ -1,13 +1,11 @@
 'use strict';
-console.log('reading js');
-//global variables//
+console.log('Hello');
 var iphone = document.querySelector('#iphone');
 var laptop = document.querySelector('#laptop');
 var key = document.querySelector('#key');
 var p = document.querySelector('#overlay p');
 var close = document.querySelector('#close');
 
-//functions with text//
 iphone.addEventListener('click', function() {
   overlay.style.display = 'block';
   p.innerHTML = 'I take my mobile phone to school every day. I use it to contact friends and check the time.';
