@@ -18,24 +18,24 @@
         //You can see the array in the console, if you want...
         console.log(words);
 
-        //run a function to put the words into the madlib... Function below...
+        
         //Pass the array of words the user typed into the function
-        makeMadLib(words);
+        Placeorder(words);
 
     });
 
-    //This function takes an array input, then constructs the madlib, peppering
+    //This function takes an array input, then constructs the pizza, peppering
         //in the user's words where necessary.
-        function makeMadLib(theWords){
-            const madlib = `As a milk tea expert, I have my own professional way to order and make my own custom milk tea. First, I chose ${theWords[0]} as the tea base. It will give a ${theWords[1]} taste. Next, my secret recipe is to use ${theWords[2]} . In the next step, I will use the sweetness of ${theWords[3]}%, and then add ${theWords[4]}% ice to shake. Finally, I will add ${theWords[5]}. Alright, my personal milk tea is done. `;
+        function Placeanorder(theWords){
+            const madlib = `I want to make a ${theWords[0]} pizza. I want to add ${theWords[1]} on top. I want ${theWords[2]}size .I want add${theWords[3]} sauce on top. Place${theWords[4]} pizza for me `;
 
-            //Get the madlib container
-            const mlContainer = document.getElementById('madlib');
+            //Get the pizza container
+            const mlContainer = document.getElementById('pizza');
 
-            //Change the guts of the container to your madlib
+            //Change the guts of the container to your pizza
             mlContainer.innerHTML = `<p>${madlib}</p>`;
 
-            //change the class on the madlib container so you can see it.
+            //change the class on the pizza container so you can see it.
             mlContainer.setAttribute("class", "visible");
         }
 
