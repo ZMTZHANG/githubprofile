@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "GILLSANS";
+    src:url("./fonts/GILLSANS.ttf");
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    color:#FFFFFF;
+    background-color: #F6BB43;
+}
+
+html {
+    padding: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    width: 80%;
+    font-size: 120px;
+    text-align: center;
+    margin: auto auto 40px;
+    font-family: 'GILLSANS', Arial;
+}
+
+footer {
+    background-color:white;
+    position: fixed;
+    margin-top: 36px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-family: "Franklin Gothic Medium";
+}
+
+.image {
+    float: left;
+}
+
+.text {
+    font-size: 18px;
+    padding-top: 80px;
+}
+
+button {
+    color:#F6BB43;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 32px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 16px 2px;
+    cursor: pointer;
+}
+
+.container > .left {
+    float: left;
+    width: 50%;
+}
+
+.container > .right {
+    float:right;
+    width: 50%;
+}
+
+.medium {
+    width: 50%;
+}
+
+.small {
+    width: 40%;
+}
+
+.clear-fix {
+    clear: both;
+    float: right;
+}
+
+button:hover {
+    background-color: dimgrey;
+}
+
+input[type=text], input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 0px 12px 12px;
+    display: inline-block;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home {
+    float: right;
+    break-after: both;
+}
+
+textarea {
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 20px;
+    resize: none;
+}
+
+#member1, #member2 {
+    clear: both;
+    margin: 20px auto;
+}
